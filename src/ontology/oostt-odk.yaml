@@ -1,0 +1,18 @@
+id: oostt
+title: "Ontology of Organizational Structures of Trauma centers and Trauma Systems"
+git_org: OOSTT
+git_repo: OOSTT
+contact: jmwhorton@uams.edu
+export_project_yaml: true
+import_group:
+  products:
+    - id: omrse
+    - id: d-acts
+      mirror_from: http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl
+release_artefacts:
+  - base
+  - full
+primary_release: full
+robot_version: 1.9.5
+export_formats:
+  - owl

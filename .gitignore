@@ -1,0 +1,21 @@
+# ODK build artifacts
+src/ontology/tmp/
+src/ontology/mirror/
+src/ontology/reports/
+src/ontology/dosdp-generated/
+src/ontology/robot.jar
+src/ontology/.cache/
+
+# ROBOT / Java
+*.log
+hs_err_pid*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
